@@ -17,13 +17,13 @@ var friends = [ {
     "name" : "Lessa",
     "scores" : [4,1,5,3,4,5,2,3,4,5]
 }, {
-    "name" : "Rose",
-    "scores" : [3,4,2,4,4,1,1,2,3,4]
+    "name" : "Merry",
+    "scores" : [3,4,5,4,1,4,1,2,3,5]
 }, {
     "name" : "Jennfer",
     "scores" : [5,4,2,5,1,1,2,1,3,5]
 }, {
-    "name" : "",
+    "name" : "Eden",
     "scores" : [1,5,1,3,5,1,4,3,2,1]
 }, {
     "name" : "James",
