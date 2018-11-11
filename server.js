@@ -1,12 +1,11 @@
 // Dependencies
 var express = require('express');
 var bodyParser = require('body-parser');
-// Seed data for "database"
+// Sets up the Express App
+// =============================================================
 var app = express();
 var PORT = process.env.PORT || 8080; // Sets an initial port.
 
-//makes static assets in the public folder available (style.css)
-//app.use(express.static('app/public'));
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -19,8 +18,8 @@ app.use(express.static("public"));
 require('./app/routing/api-routes.js')(app); 
 require('./app/routing/html-routes.js')(app);
 
-// Start the server to begin listening
+// Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
-
+  // Log (server-side) when our server has started
+  console.log("Server listening on: http://localhost:" + PORT);
 });
