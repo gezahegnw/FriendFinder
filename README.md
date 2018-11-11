@@ -17,7 +17,7 @@ Technologies used
 -express js
 
 
-here is deployed Heroku link 
+here is deployed Heroku link   https://gentle-wildwood-13027.herokuapp.com/
 and Github Repository link https://github.com/gezahegnw/friend-finder 
 
 
