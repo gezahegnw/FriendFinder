@@ -1,4 +1,4 @@
-// all dependencies that you need
+// Dependencies
 var express = require('express');
 var bodyParser = require('body-parser');
 // Seed data for "database"
@@ -21,5 +21,6 @@ require('./app/routing/html-routes.js')(app);
 
 // Start the server to begin listening
 app.listen(PORT, function() {
-  console.log("App now listening at localhost:" + PORT);
+  console.log("App listening on PORT " + PORT);
+
 });
