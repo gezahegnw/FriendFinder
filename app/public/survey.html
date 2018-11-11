@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Meet Your Mate</title>
    <!-- Latest compiled and minified CSS, fontwaespme and bootstrap andJS -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <!--<script src="https://code.jquery.com/jquery.js"></script>-->
@@ -12,7 +13,6 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <style> 
 body{
     background-color: rgb(36, 23, 23);
@@ -195,6 +195,7 @@ body{
         </footer>
     </div> 
     <script>
+    $('document').ready(function() {
     //this grabs the URL of the website
     var currentURL = window.location.origin;
     // this captures the form inputs
@@ -242,6 +243,7 @@ body{
     location.replace(res);
     })
     });
+});
 </script>
 
 </body>
